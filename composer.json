@@ -1,0 +1,22 @@
+{
+    "name": "mclxly/xfyun-php",
+    "description": "讯飞开放平台语音识别接口之PHP实现",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Colin",
+            "email": "legoo8@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "~6.3.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "mclxly\\xfyun\\": "src/"
+        }
+      }
+}
