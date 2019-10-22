@@ -339,7 +339,8 @@ class XFLongFormAsrClient extends XFClient
     $this->merge_request($taskid);
 
     # 4 . 获取任务进度
-    while (1) {
+    $counter = 0;
+    while ($counter++ < 100) {
       $progress = $this->get_progress_request($taskid);
       $progress_dic = $progress;
 
